@@ -1,0 +1,10 @@
+.speak-icon {
+    color: #ffae00;
+    padding-left: 6px;
+    cursor: pointer;
+}
+
+.speak-button {
+    background-color: transparent;
+    border: none;
+}

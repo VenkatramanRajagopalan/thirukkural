@@ -1,24 +1,34 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header/Header';
+import KuralContainer from './components/KuralContainer/KuralContainer';
+import React, { useState, useEffect } from 'react';
 
 function App() {
+
+  const [kuralNumber, setKuralNumber] = useState('');
+
+  useEffect(() => {
+    fetchRandomKural();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
+  const handleSearchSubmit = (kuralNumber) => {
+    setKuralNumber(kuralNumber);
+  }
+
+  const fetchRandomKural = () => {
+    setKuralNumber(Math.floor(Math.random() * 1330));
+  }
+
+  
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header onSearchSubmit={handleSearchSubmit} />
+      <div className="main-container">
+        <KuralContainer kuralNumber={kuralNumber} onRefreshClick={fetchRandomKural} />
+      </div>
+    </>
   );
 }
 
