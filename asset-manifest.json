@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/thirukkural/static/css/main.97faf70b.chunk.css",
+    "main.js": "/thirukkural/static/js/main.2f4eef0c.chunk.js",
+    "main.js.map": "/thirukkural/static/js/main.2f4eef0c.chunk.js.map",
+    "runtime-main.js": "/thirukkural/static/js/runtime-main.b5fca076.js",
+    "runtime-main.js.map": "/thirukkural/static/js/runtime-main.b5fca076.js.map",
+    "static/js/2.f22b8e3e.chunk.js": "/thirukkural/static/js/2.f22b8e3e.chunk.js",
+    "static/js/2.f22b8e3e.chunk.js.map": "/thirukkural/static/js/2.f22b8e3e.chunk.js.map",
+    "static/js/3.8533c23e.chunk.js": "/thirukkural/static/js/3.8533c23e.chunk.js",
+    "static/js/3.8533c23e.chunk.js.map": "/thirukkural/static/js/3.8533c23e.chunk.js.map",
+    "index.html": "/thirukkural/index.html",
+    "static/css/main.97faf70b.chunk.css.map": "/thirukkural/static/css/main.97faf70b.chunk.css.map",
+    "static/js/2.f22b8e3e.chunk.js.LICENSE.txt": "/thirukkural/static/js/2.f22b8e3e.chunk.js.LICENSE.txt",
+    "static/media/logo.aa06f540.png": "/thirukkural/static/media/logo.aa06f540.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b5fca076.js",
+    "static/js/2.f22b8e3e.chunk.js",
+    "static/css/main.97faf70b.chunk.css",
+    "static/js/main.2f4eef0c.chunk.js"
+  ]
+}
